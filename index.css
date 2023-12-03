@@ -1,0 +1,72 @@
+#camap
+{
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: camap;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes camap
+{
+    0% {left:100px; top:400px;}
+    20% {left:300px; top:400px;}
+    40% {left:500px; top:300px;}
+    50% {left:700px; top:50px;}
+    60% {left:900px; top:100px;}
+    80% {right:300px; top:200px;}
+    100% {right:500px; top:400px;}
+}
+#rua
+{
+    left: 100px;
+    bottom: 10px;
+    position: absolute;
+    animation-name: rua;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes rua
+{
+    0% {left:100px; bottom:40px;}
+    20% {left:300px; bottom:40px;}
+    40% {left:500px; bottom:70px;}
+    50% {left:700px; bottom:150px;}
+    60% {left:900px; bottom:100px;}
+    80% {right:300px; bottom:60px;}
+    100% {right:500px; bottom:40px;}
+}
+#nguoi
+{
+    left: 100px;
+    top: 700px;
+    position: absolute;
+    animation-name: nguoi;
+    animation-duration: 17s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes nguoi
+{
+    0% {left:100px; top:200px;}
+    20% {left:300px; top:300px;}
+    40% {left:500px; top:500px;}
+    50% {left:700px; top:100px;}
+    60% {left:900px; top:300px;}
+    80% {right:300px; top:100px;}
+    100% {right:500px; top:200px;}
+}
+audio
+{
+    right: 0;
+    position: absolute;
+}
+body
+{
+    margin: auto;
+}
